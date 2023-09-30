@@ -18,7 +18,7 @@ To get a local copy up and running, follow these simple steps.
 Clone the repo
 
 ```bash
-git clone https://github.com/gitmurali/aws-bedrock-generative-ai
+git clone https://github.com/gitmurali/aws-bedrock-generative-ai.git
 ```
 
 Install required packages
