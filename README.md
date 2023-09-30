@@ -40,3 +40,13 @@ streamlit run image_generation.py
 ```
 
 This will launch a Streamlit app where you can enter prompts to generate images in various styles.
+
+### Chatbot
+
+To interact with a chatbot built using Amazon Bedrock, LangChain, and Streamlit, run:
+
+```bash
+streamlit run chat_bedrock.py
+```
+
+Launch a Streamlit app where you can have a conversation with the chatbot, witnessing AI-powered conversational capabilities.
