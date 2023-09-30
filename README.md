@@ -39,6 +39,13 @@ To generate images using Stable Diffusion, run the following command:
 streamlit run image_generation.py
 ```
 
+To run in docker container:
+
+```bash
+sudo docker build . -t generative-ai
+sudo docker run -p 8501:8501 -d --rm -v ~/.aws:/root/.aws generative-ai
+```
+
 This will launch a Streamlit app where you can enter prompts to generate images in various styles.
 
 ### Chatbot
